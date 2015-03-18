@@ -1,0 +1,887 @@
+Collected 1000 sample tweets in (sec):	48.0
+Collected 1000 sample tweets in (sec):	52.0
+Collected 1000 sample tweets in (sec):	51.0
+Collected 1000 sample tweets in (sec):	46.0
+Collected 1000 sample tweets in (sec):	51.0
+Collected 1000 sample tweets in (sec):	50.0
+Collected 1000 sample tweets in (sec):	56.0
+Collected 1000 sample tweets in (sec):	58.0
+Collected 1000 sample tweets in (sec):	63.0
+Collected 1000 sample tweets in (sec):	65.0
+Collected 1000 sample tweets in (sec):	72.0
+
+Running stream_filter.py	2012-08-27 01:31:24
+====================================================
+Collected 1000 sample tweets in (sec):	80.0
+
+Running stream_sample.py	2012-08-27 01:46:28
+====================================================
+Collected 1000 sample tweets in (sec):	85.0
+
+Running stream_sample.py	2012-08-27 02:01:28
+====================================================
+Collected 1000 sample tweets in (sec):	84.0
+
+Running stream_sample.py	2012-08-27 02:16:41
+====================================================
+Collected 1000 sample tweets in (sec):	97.0
+
+Running stream_sample.py	2012-08-27 02:31:53
+====================================================
+Collected 1000 sample tweets in (sec):	110.0
+
+Running stream_sample.py	2012-08-27 02:46:59
+====================================================
+Collected 1000 sample tweets in (sec):	116.0
+
+Running stream_sample.py	2012-08-27 03:01:59
+====================================================
+Collected 1000 sample tweets in (sec):	116.0
+
+Running stream_sample.py	2012-08-27 03:17:18
+====================================================
+Collected 1000 sample tweets in (sec):	135.0
+
+Running stream_sample.py	2012-08-27 03:32:23
+====================================================
+Collected 1000 sample tweets in (sec):	141.0
+
+Running stream_sample.py	2012-08-27 03:47:34
+====================================================
+Collected 1000 sample tweets in (sec):	151.0
+
+Running stream_sample.py	2012-08-27 04:02:34
+====================================================
+Collected 1000 sample tweets in (sec):	151.0
+
+Running stream_sample.py	2012-08-27 04:17:52
+====================================================
+Collected 1000 sample tweets in (sec):	169.0
+
+Running stream_sample.py	2012-08-27 04:32:51
+====================================================
+Collected 1000 sample tweets in (sec):	169.0
+
+Running stream_sample.py	2012-08-27 04:48:00
+====================================================
+Collected 1000 sample tweets in (sec):	177.0
+
+Running stream_sample.py	2012-08-27 05:02:40
+====================================================
+Collected 1000 sample tweets in (sec):	157.0
+
+Running stream_sample.py	2012-08-27 05:17:48
+====================================================
+Collected 1000 sample tweets in (sec):	166.0
+
+Running stream_sample.py	2012-08-27 05:32:43
+====================================================
+Collected 1000 sample tweets in (sec):	160.0
+
+Running stream_sample.py	2012-08-27 05:47:51
+====================================================
+Collected 1000 sample tweets in (sec):	168.0
+
+Running stream_sample.py	2012-08-27 06:02:18
+====================================================
+Collected 1000 sample tweets in (sec):	135.0
+
+Running stream_sample.py	2012-08-27 06:17:35
+====================================================
+Collected 1000 sample tweets in (sec):	152.0
+
+Running stream_sample.py	2012-08-27 06:32:11
+====================================================
+Collected 1000 sample tweets in (sec):	128.0
+
+Running stream_sample.py	2012-08-27 06:47:16
+====================================================
+Collected 1000 sample tweets in (sec):	134.0
+
+Running stream_sample.py	2012-08-27 07:01:58
+====================================================
+Collected 1000 sample tweets in (sec):	115.0
+
+Running stream_sample.py	2012-08-27 07:17:04
+====================================================
+Collected 1000 sample tweets in (sec):	121.0
+
+Running stream_sample.py	2012-08-27 07:31:49
+====================================================
+Collected 1000 sample tweets in (sec):	106.0
+
+Running stream_sample.py	2012-08-27 07:46:54
+====================================================
+Collected 1000 sample tweets in (sec):	111.0
+
+Running stream_sample.py	2012-08-27 08:01:43
+====================================================
+Collected 1000 sample tweets in (sec):	100.0
+
+Running stream_sample.py	2012-08-27 08:16:43
+====================================================
+Collected 1000 sample tweets in (sec):	101.0
+
+Running stream_sample.py	2012-08-27 08:31:34
+====================================================
+Collected 1000 sample tweets in (sec):	91.0
+
+Running stream_sample.py	2012-08-27 08:46:40
+====================================================
+Collected 1000 sample tweets in (sec):	97.0
+
+Running stream_sample.py	2012-08-27 09:01:28
+====================================================
+Collected 1000 sample tweets in (sec):	85.0
+
+Running stream_sample.py	2012-08-27 09:16:29
+====================================================
+Collected 1000 sample tweets in (sec):	87.0
+
+Running stream_sample.py	2012-08-27 09:31:26
+====================================================
+Collected 1000 sample tweets in (sec):	83.0
+
+Running stream_sample.py	2012-08-27 09:46:30
+====================================================
+Collected 1000 sample tweets in (sec):	87.0
+
+Running stream_sample.py	2012-08-27 10:01:22
+====================================================
+Collected 1000 sample tweets in (sec):	77.0
+
+Running stream_sample.py	2012-08-27 10:16:22
+====================================================
+Collected 1000 sample tweets in (sec):	79.0
+
+Running stream_sample.py	2012-08-27 10:31:15
+====================================================
+Collected 1000 sample tweets in (sec):	72.0
+
+Running stream_sample.py	2012-08-27 10:46:16
+====================================================
+Collected 1000 sample tweets in (sec):	73.0
+
+Running stream_sample.py	2012-08-27 11:01:09
+====================================================
+Collected 1000 sample tweets in (sec):	66.0
+
+Running stream_sample.py	2012-08-27 11:16:18
+====================================================
+Collected 1000 sample tweets in (sec):	75.0
+
+Running stream_sample.py	2012-08-27 11:31:14
+====================================================
+Collected 1000 sample tweets in (sec):	71.0
+
+Running stream_sample.py	2012-08-27 11:46:15
+====================================================
+Collected 1000 sample tweets in (sec):	69.0
+
+Running stream_sample.py	2012-08-27 12:01:08
+====================================================
+Collected 1000 sample tweets in (sec):	65.0
+
+Running stream_sample.py	2012-08-27 12:16:13
+====================================================
+Collected 1000 sample tweets in (sec):	70.0
+
+Running stream_sample.py	2012-08-27 12:31:10
+====================================================
+Collected 1000 sample tweets in (sec):	67.0
+
+Running stream_sample.py	2012-08-27 12:46:13
+====================================================
+Collected 1000 sample tweets in (sec):	70.0
+
+Running stream_sample.py	2012-08-27 13:01:09
+====================================================
+Collected 1000 sample tweets in (sec):	66.0
+
+Running stream_sample.py	2012-08-27 13:16:10
+====================================================
+Collected 1000 sample tweets in (sec):	67.0
+
+Running stream_sample.py	2012-08-27 13:31:09
+====================================================
+Collected 1000 sample tweets in (sec):	66.0
+
+Running stream_sample.py	2012-08-27 13:46:11
+====================================================
+Collected 1000 sample tweets in (sec):	69.0
+
+Running stream_sample.py	2012-08-27 14:01:05
+====================================================
+Collected 1000 sample tweets in (sec):	63.0
+
+Running stream_sample.py	2012-08-27 14:16:14
+====================================================
+Collected 1000 sample tweets in (sec):	71.0
+
+Running stream_sample.py	2012-08-27 14:31:08
+====================================================
+Collected 1000 sample tweets in (sec):	66.0
+
+Running stream_sample.py	2012-08-27 14:46:09
+====================================================
+Collected 1000 sample tweets in (sec):	66.0
+
+Running stream_sample.py	2012-08-27 15:01:08
+====================================================
+Collected 1000 sample tweets in (sec):	66.0
+
+Running stream_sample.py	2012-08-27 15:16:11
+====================================================
+Collected 1000 sample tweets in (sec):	68.0
+
+Running stream_sample.py	2012-08-27 15:31:04
+====================================================
+Collected 1000 sample tweets in (sec):	61.0
+
+Running stream_sample.py	2012-08-27 15:46:05
+====================================================
+Collected 1000 sample tweets in (sec):	62.0
+
+Running stream_sample.py	2012-08-27 16:01:02
+====================================================
+Collected 1000 sample tweets in (sec):	59.0
+
+Running stream_sample.py	2012-08-27 16:16:05
+====================================================
+Collected 1000 sample tweets in (sec):	62.0
+
+Running stream_sample.py	2012-08-27 16:31:03
+====================================================
+Collected 1000 sample tweets in (sec):	60.0
+
+Running stream_sample.py	2012-08-27 16:45:59
+====================================================
+Collected 1000 sample tweets in (sec):	56.0
+
+Running stream_sample.py	2012-08-27 17:00:58
+====================================================
+Collected 1000 sample tweets in (sec):	55.0
+
+Running stream_sample.py	2012-08-27 17:16:02
+====================================================
+Collected 1000 sample tweets in (sec):	60.0
+
+Running stream_sample.py	2012-08-27 17:30:56
+====================================================
+Collected 1000 sample tweets in (sec):	53.0
+
+Running stream_sample.py	2012-08-27 17:45:58
+====================================================
+Collected 1000 sample tweets in (sec):	56.0
+
+Running stream_sample.py	2012-08-27 18:00:57
+====================================================
+Collected 1000 sample tweets in (sec):	55.0
+
+Running stream_sample.py	2012-08-27 18:15:57
+====================================================
+Collected 1000 sample tweets in (sec):	54.0
+
+Running stream_sample.py	2012-08-27 18:30:56
+====================================================
+Collected 1000 sample tweets in (sec):	53.0
+
+Running stream_sample.py	2012-08-27 18:45:55
+====================================================
+Collected 1000 sample tweets in (sec):	52.0
+
+Running stream_sample.py	2012-08-27 19:01:00
+====================================================
+Collected 1000 sample tweets in (sec):	57.0
+
+Running stream_sample.py	2012-08-27 19:15:58
+====================================================
+Collected 1000 sample tweets in (sec):	55.0
+
+Running stream_sample.py	2012-08-27 19:30:58
+====================================================
+Collected 1000 sample tweets in (sec):	56.0
+
+Running stream_sample.py	2012-08-27 19:46:01
+====================================================
+Collected 1000 sample tweets in (sec):	58.0
+
+Running stream_sample.py	2012-08-27 20:00:57
+====================================================
+Collected 1000 sample tweets in (sec):	54.0
+
+Running stream_sample.py	2012-08-27 20:15:53
+====================================================
+Collected 1000 sample tweets in (sec):	51.0
+
+Running stream_sample.py	2012-08-27 20:30:49
+====================================================
+Collected 1000 sample tweets in (sec):	46.0
+
+Running stream_sample.py	2012-08-27 20:45:49
+====================================================
+Collected 1000 sample tweets in (sec):	46.0
+
+Running stream_sample.py	2012-08-27 21:00:46
+====================================================
+Collected 1000 sample tweets in (sec):	44.0
+
+Running stream_sample.py	2012-08-27 21:15:53
+====================================================
+Collected 1000 sample tweets in (sec):	50.0
+
+Running stream_sample.py	2012-08-27 21:30:52
+====================================================
+Collected 1000 sample tweets in (sec):	49.0
+
+Running stream_sample.py	2012-08-27 21:45:53
+====================================================
+Collected 1000 sample tweets in (sec):	50.0
+
+Running stream_sample.py	2012-08-27 22:00:49
+====================================================
+Collected 1000 sample tweets in (sec):	46.0
+
+Running stream_sample.py	2012-08-27 22:15:50
+====================================================
+Collected 1000 sample tweets in (sec):	47.0
+
+Running stream_sample.py	2012-08-27 22:30:49
+====================================================
+Collected 1000 sample tweets in (sec):	46.0
+
+Running stream_sample.py	2012-08-27 22:45:50
+====================================================
+Collected 1000 sample tweets in (sec):	47.0
+
+Running stream_sample.py	2012-08-27 23:00:48
+====================================================
+Collected 1000 sample tweets in (sec):	45.0
+
+Running stream_sample.py	2012-08-27 23:15:52
+====================================================
+Collected 1000 sample tweets in (sec):	49.0
+
+Running stream_sample.py	2012-08-27 23:30:55
+====================================================
+Collected 1000 sample tweets in (sec):	52.0
+
+Running stream_sample.py	2012-08-27 23:45:55
+====================================================
+Collected 1000 sample tweets in (sec):	52.0
+
+Running stream_sample.py	2012-08-28 00:00:56
+====================================================
+Collected 1000 sample tweets in (sec):	53.0
+
+Running stream_sample.py	2012-08-28 00:16:00
+====================================================
+Collected 1000 sample tweets in (sec):	57.0
+
+Running stream_sample.py	2012-08-28 00:31:05
+====================================================
+Collected 1000 sample tweets in (sec):	61.0
+
+Running stream_sample.py	2012-08-28 00:46:07
+====================================================
+Collected 1000 sample tweets in (sec):	64.0
+
+Running stream_sample.py	2012-08-28 01:01:13
+====================================================
+Collected 1000 sample tweets in (sec):	70.0
+
+Running stream_sample.py	2012-08-28 01:16:20
+====================================================
+Collected 1000 sample tweets in (sec):	77.0
+
+Running stream_sample.py	2012-08-28 01:31:24
+====================================================
+Collected 1000 sample tweets in (sec):	82.0
+
+Running stream_sample.py	2012-08-28 01:46:34
+====================================================
+Collected 1000 sample tweets in (sec):	91.0
+
+Running stream_sample.py	2012-08-28 02:01:37
+====================================================
+Collected 1000 sample tweets in (sec):	94.0
+
+Running stream_sample.py	2012-08-28 02:16:47
+====================================================
+Collected 1000 sample tweets in (sec):	104.0
+
+Running stream_sample.py	2012-08-28 02:31:56
+====================================================
+Collected 1000 sample tweets in (sec):	113.0
+
+Running stream_sample.py	2012-08-28 02:47:05
+====================================================
+Collected 1000 sample tweets in (sec):	122.0
+
+Running stream_sample.py	2012-08-28 03:01:58
+====================================================
+Collected 1000 sample tweets in (sec):	115.0
+
+Running stream_sample.py	2012-08-28 03:17:22
+====================================================
+Collected 1000 sample tweets in (sec):	139.0
+
+Running stream_sample.py	2012-08-28 03:32:23
+====================================================
+Collected 1000 sample tweets in (sec):	141.0
+
+Running stream_sample.py	2012-08-28 03:47:39
+====================================================
+Collected 1000 sample tweets in (sec):	156.0
+
+Running stream_sample.py	2012-08-28 04:02:19
+====================================================
+Collected 1000 sample tweets in (sec):	136.0
+
+Running stream_sample.py	2012-08-28 04:17:57
+====================================================
+Collected 1000 sample tweets in (sec):	175.0
+
+Running stream_sample.py	2012-08-28 04:32:44
+====================================================
+Collected 1000 sample tweets in (sec):	162.0
+
+Running stream_sample.py	2012-08-28 04:48:12
+====================================================
+Collected 1000 sample tweets in (sec):	189.0
+
+Running stream_sample.py	2012-08-28 05:02:44
+====================================================
+Collected 1000 sample tweets in (sec):	161.0
+
+Running stream_sample.py	2012-08-28 05:17:51
+====================================================
+Collected 1000 sample tweets in (sec):	169.0
+
+Running stream_sample.py	2012-08-28 05:32:51
+====================================================
+Collected 1000 sample tweets in (sec):	168.0
+
+Running stream_sample.py	2012-08-28 05:47:56
+====================================================
+Collected 1000 sample tweets in (sec):	173.0
+
+Running stream_sample.py	2012-08-28 06:02:15
+====================================================
+Collected 1000 sample tweets in (sec):	132.0
+
+Running stream_sample.py	2012-08-28 06:17:40
+====================================================
+Collected 1000 sample tweets in (sec):	157.0
+
+Running stream_sample.py	2012-08-28 06:32:18
+====================================================
+Collected 1000 sample tweets in (sec):	136.0
+
+Running stream_sample.py	2012-08-28 06:47:14
+====================================================
+Collected 1000 sample tweets in (sec):	129.0
+
+Running stream_sample.py	2012-08-28 07:01:54
+====================================================
+Collected 1000 sample tweets in (sec):	111.0
+
+Running stream_sample.py	2012-08-28 07:17:05
+====================================================
+Collected 1000 sample tweets in (sec):	123.0
+
+Running stream_sample.py	2012-08-28 07:31:52
+====================================================
+Collected 1000 sample tweets in (sec):	110.0
+
+Running stream_sample.py	2012-08-28 07:46:54
+====================================================
+Collected 1000 sample tweets in (sec):	111.0
+
+Running stream_sample.py	2012-08-28 08:01:45
+====================================================
+Collected 1000 sample tweets in (sec):	102.0
+
+Running stream_sample.py	2012-08-28 08:16:52
+====================================================
+Collected 1000 sample tweets in (sec):	109.0
+
+Running stream_sample.py	2012-08-28 08:31:39
+====================================================
+Collected 1000 sample tweets in (sec):	96.0
+
+Running stream_sample.py	2012-08-28 08:46:43
+====================================================
+Collected 1000 sample tweets in (sec):	100.0
+
+Running stream_sample.py	2012-08-28 09:01:27
+====================================================
+Collected 1000 sample tweets in (sec):	84.0
+
+Running stream_sample.py	2012-08-28 09:16:30
+====================================================
+Collected 1000 sample tweets in (sec):	87.0
+
+Running stream_sample.py	2012-08-28 09:31:29
+====================================================
+Collected 1000 sample tweets in (sec):	87.0
+
+Running stream_sample.py	2012-08-28 09:46:32
+====================================================
+Collected 1000 sample tweets in (sec):	90.0
+
+Running stream_sample.py	2012-08-28 10:01:19
+====================================================
+Collected 1000 sample tweets in (sec):	76.0
+
+Running stream_sample.py	2012-08-28 10:16:18
+====================================================
+Collected 1000 sample tweets in (sec):	75.0
+
+Running stream_sample.py	2012-08-28 10:31:16
+====================================================
+Collected 1000 sample tweets in (sec):	74.0
+
+Running stream_sample.py	2012-08-28 10:46:16
+====================================================
+Collected 1000 sample tweets in (sec):	73.0
+
+Running stream_sample.py	2012-08-28 11:01:15
+====================================================
+Collected 1000 sample tweets in (sec):	73.0
+
+Running stream_sample.py	2012-08-28 11:16:15
+====================================================
+Collected 1000 sample tweets in (sec):	73.0
+
+Running stream_sample.py	2012-08-28 11:31:13
+====================================================
+Collected 1000 sample tweets in (sec):	70.0
+
+Running stream_sample.py	2012-08-28 11:46:15
+====================================================
+Collected 1000 sample tweets in (sec):	72.0
+
+Running stream_sample.py	2012-08-28 12:01:07
+====================================================
+Collected 1000 sample tweets in (sec):	64.0
+
+Running stream_sample.py	2012-08-28 12:16:13
+====================================================
+Collected 1000 sample tweets in (sec):	70.0
+
+Running stream_sample.py	2012-08-28 12:31:14
+====================================================
+Collected 1000 sample tweets in (sec):	71.0
+
+Running stream_sample.py	2012-08-28 12:46:12
+====================================================
+Collected 1000 sample tweets in (sec):	69.0
+
+Running stream_sample.py	2012-08-28 13:01:03
+====================================================
+Collected 1000 sample tweets in (sec):	61.0
+
+Running stream_sample.py	2012-08-28 13:16:07
+====================================================
+Collected 1000 sample tweets in (sec):	64.0
+
+Running stream_sample.py	2012-08-28 13:31:08
+====================================================
+Collected 1000 sample tweets in (sec):	65.0
+
+Running stream_sample.py	2012-08-28 13:46:06
+====================================================
+Collected 1000 sample tweets in (sec):	63.0
+
+Running stream_sample.py	2012-08-28 14:01:07
+====================================================
+Collected 1000 sample tweets in (sec):	65.0
+
+Running stream_sample.py	2012-08-28 14:16:08
+====================================================
+Collected 1000 sample tweets in (sec):	66.0
+
+Running stream_sample.py	2012-08-28 14:31:04
+====================================================
+Collected 1000 sample tweets in (sec):	61.0
+
+Running stream_sample.py	2012-08-28 14:46:08
+====================================================
+Collected 1000 sample tweets in (sec):	66.0
+
+Running stream_sample.py	2012-08-28 15:00:59
+====================================================
+Collected 1000 sample tweets in (sec):	57.0
+
+Running stream_sample.py	2012-08-28 15:16:04
+====================================================
+Collected 1000 sample tweets in (sec):	62.0
+
+Running stream_sample.py	2012-08-28 15:31:02
+====================================================
+Collected 1000 sample tweets in (sec):	60.0
+
+Running stream_sample.py	2012-08-28 15:46:01
+====================================================
+Collected 1000 sample tweets in (sec):	59.0
+
+Running stream_sample.py	2012-08-28 16:01:02
+====================================================
+Collected 1000 sample tweets in (sec):	59.0
+
+Running stream_sample.py	2012-08-28 16:16:03
+====================================================
+Collected 1000 sample tweets in (sec):	60.0
+
+Running stream_sample.py	2012-08-28 16:31:00
+====================================================
+Collected 1000 sample tweets in (sec):	57.0
+
+Running stream_sample.py	2012-08-28 16:46:00
+====================================================
+Collected 1000 sample tweets in (sec):	58.0
+
+Running stream_sample.py	2012-08-28 17:00:53
+====================================================
+Collected 1000 sample tweets in (sec):	50.0
+
+Running stream_sample.py	2012-08-28 17:16:02
+====================================================
+Collected 1000 sample tweets in (sec):	59.0
+
+Running stream_sample.py	2012-08-28 17:30:58
+====================================================
+Collected 1000 sample tweets in (sec):	55.0
+
+Running stream_sample.py	2012-08-28 17:45:53
+====================================================
+Collected 1000 sample tweets in (sec):	50.0
+
+Running stream_sample.py	2012-08-28 18:00:57
+====================================================
+Collected 1000 sample tweets in (sec):	55.0
+
+Running stream_sample.py	2012-08-28 18:15:58
+====================================================
+Collected 1000 sample tweets in (sec):	56.0
+
+Running stream_sample.py	2012-08-28 18:30:55
+====================================================
+Collected 1000 sample tweets in (sec):	52.0
+
+Running stream_sample.py	2012-08-28 18:45:55
+====================================================
+Collected 1000 sample tweets in (sec):	53.0
+
+Running stream_sample.py	2012-08-28 19:00:53
+====================================================
+Collected 1000 sample tweets in (sec):	51.0
+
+Running stream_sample.py	2012-08-28 19:15:57
+====================================================
+Collected 1000 sample tweets in (sec):	54.0
+
+Running stream_sample.py	2012-08-28 19:30:57
+====================================================
+Collected 1000 sample tweets in (sec):	55.0
+
+Running stream_sample.py	2012-08-28 19:45:59
+====================================================
+Collected 1000 sample tweets in (sec):	56.0
+
+Running stream_sample.py	2012-08-28 20:00:53
+====================================================
+Collected 1000 sample tweets in (sec):	50.0
+
+Running stream_sample.py	2012-08-28 20:15:58
+====================================================
+Collected 1000 sample tweets in (sec):	55.0
+
+Running stream_sample.py	2012-08-28 20:30:49
+====================================================
+Collected 1000 sample tweets in (sec):	46.0
+
+Running stream_sample.py	2012-08-28 20:45:54
+====================================================
+Collected 1000 sample tweets in (sec):	51.0
+
+Running stream_sample.py	2012-08-28 21:00:39
+====================================================
+Collected 1000 sample tweets in (sec):	36.0
+
+Running stream_sample.py	2012-08-28 21:15:47
+====================================================
+Collected 1000 sample tweets in (sec):	44.0
+
+Running stream_sample.py	2012-08-28 21:30:48
+====================================================
+Collected 1000 sample tweets in (sec):	45.0
+
+Running stream_sample.py	2012-08-28 21:45:54
+====================================================
+Collected 1000 sample tweets in (sec):	52.0
+
+Running stream_sample.py	2012-08-28 22:00:51
+====================================================
+Collected 1000 sample tweets in (sec):	49.0
+
+Running stream_sample.py	2012-08-28 22:15:49
+====================================================
+Collected 1000 sample tweets in (sec):	47.0
+
+Running stream_sample.py	2012-08-28 22:30:46
+====================================================
+Collected 1000 sample tweets in (sec):	44.0
+
+Running stream_sample.py	2012-08-28 22:45:46
+====================================================
+Collected 1000 sample tweets in (sec):	44.0
+
+Running stream_sample.py	2012-08-28 23:00:49
+====================================================
+Collected 1000 sample tweets in (sec):	47.0
+
+Running stream_sample.py	2012-08-28 23:15:49
+====================================================
+Collected 1000 sample tweets in (sec):	46.0
+
+Running stream_sample.py	2012-08-28 23:30:51
+====================================================
+Collected 1000 sample tweets in (sec):	48.0
+
+Running stream_sample.py	2012-08-28 23:45:53
+====================================================
+Collected 1000 sample tweets in (sec):	50.0
+
+Running stream_sample.py	2012-08-29 00:00:55
+====================================================
+Collected 1000 sample tweets in (sec):	52.0
+
+Running stream_sample.py	2012-08-29 00:15:59
+====================================================
+Collected 1000 sample tweets in (sec):	56.0
+
+Running stream_sample.py	2012-08-29 00:31:04
+====================================================
+Collected 1000 sample tweets in (sec):	59.0
+
+Running stream_sample.py	2012-08-29 00:46:10
+====================================================
+Collected 1000 sample tweets in (sec):	67.0
+
+Running stream_sample.py	2012-08-29 01:01:14
+====================================================
+Collected 1000 sample tweets in (sec):	71.0
+
+Running stream_sample.py	2012-08-29 01:16:20
+====================================================
+Collected 1000 sample tweets in (sec):	76.0
+
+Running stream_sample.py	2012-08-29 01:31:26
+====================================================
+Collected 1000 sample tweets in (sec):	83.0
+
+Running stream_sample.py	2012-08-29 01:46:34
+====================================================
+Collected 1000 sample tweets in (sec):	91.0
+
+Running stream_sample.py	2012-08-29 02:01:39
+====================================================
+Collected 1000 sample tweets in (sec):	96.0
+
+Running stream_sample.py	2012-08-29 02:16:54
+====================================================
+Collected 1000 sample tweets in (sec):	111.0
+
+Running stream_sample.py	2012-08-29 02:31:56
+====================================================
+Collected 1000 sample tweets in (sec):	113.0
+
+Running stream_sample.py	2012-08-29 02:47:08
+====================================================
+Collected 1000 sample tweets in (sec):	126.0
+
+Running stream_sample.py	2012-08-29 03:01:58
+====================================================
+Collected 1000 sample tweets in (sec):	115.0
+
+Running stream_sample.py	2012-08-29 03:17:24
+====================================================
+Collected 1000 sample tweets in (sec):	141.0
+
+Running stream_sample.py	2012-08-29 03:32:21
+====================================================
+Collected 1000 sample tweets in (sec):	139.0
+
+Running stream_sample.py	2012-08-29 03:47:39
+====================================================
+Collected 1000 sample tweets in (sec):	157.0
+
+Running stream_sample.py	2012-08-29 04:02:14
+====================================================
+Collected 1000 sample tweets in (sec):	132.0
+
+Running stream_sample.py	2012-08-29 04:17:47
+====================================================
+Collected 1000 sample tweets in (sec):	164.0
+
+Running stream_sample.py	2012-08-29 04:32:39
+====================================================
+Collected 1000 sample tweets in (sec):	156.0
+
+Running stream_sample.py	2012-08-29 05:02:33
+====================================================
+Collected 1000 sample tweets in (sec):	150.0
+
+Running stream_sample.py	2012-08-29 05:17:36
+====================================================
+Collected 1000 sample tweets in (sec):	153.0
+
+Running stream_sample.py	2012-08-29 05:32:36
+====================================================
+Collected 1000 sample tweets in (sec):	153.0
+
+Running stream_sample.py	2012-08-29 05:47:41
+====================================================
+Collected 1000 sample tweets in (sec):	158.0
+
+Running stream_sample.py	2012-08-29 06:02:11
+====================================================
+Collected 1000 sample tweets in (sec):	128.0
+
+Running stream_sample.py	2012-08-29 06:17:26
+====================================================
+Collected 1000 sample tweets in (sec):	143.0
+
+Running stream_sample.py	2012-08-29 06:32:04
+====================================================
+Collected 1000 sample tweets in (sec):	121.0
+
+Running stream_sample.py	2012-08-29 06:47:05
+====================================================
+Collected 1000 sample tweets in (sec):	122.0
+
+Running stream_sample.py	2012-08-29 07:01:46
+====================================================
+Collected 1000 sample tweets in (sec):	103.0
+
+Running stream_sample.py	2012-08-29 07:16:56
+====================================================
+Collected 1000 sample tweets in (sec):	113.0
+
+Running stream_sample.py	2012-08-29 07:31:52
+====================================================
+Collected 1000 sample tweets in (sec):	109.0
+
+Running stream_sample.py	2012-08-29 07:46:48
+====================================================
+Collected 1000 sample tweets in (sec):	105.0
+
+Running stream_sample.py	2012-08-29 08:01:29
+====================================================
+Collected 1000 sample tweets in (sec):	86.0
+
+Running stream_sample.py	2012-08-29 08:16:35
+====================================================
+Collected 1000 sample tweets in (sec):	92.0

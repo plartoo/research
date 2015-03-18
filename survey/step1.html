@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+	<head>
+	<meta charset="utf-8"/>
+	<title>Strength Stories Survey</title>
+	<link href='https://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
+       <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+       <link href="material/css/ripples.min.css" rel="stylesheet">
+       <link href="material/css/material-wfont.min.css" rel="stylesheet">
+       <link href="style/animate.min.css" rel="stylesheet">
+
+	<script>
+		// This survey depends on caching with localStorage, so for Safari we need to check this
+		try {
+			localStorage.test = "local storage test";
+		} catch (e) {	//there was an error so...
+			alert('You are in Private Browsing Mode.\nPlease deactivate Private Mode temporarily for your browser and then refresh/reload the page.');
+		}
+	</script>
+	<style>
+		body,html{
+			font-family: "EB Garamond", "Trebuchet MS","Helvetica","Arial","Verdana", serif;
+		}
+		#content, #prompts, #response{
+			width: 700px;
+			font-size: 22px;
+			text-align: justify;
+			margin: 20px auto;
+		}
+		#prompts, #everything{
+			-moz-animation-duration: 1s;
+			-moz-animation-delay: 0s;
+			-moz-animation-iteration-count: 1;
+
+			-webkit-animation-duration: 1s;
+			-webkit-animation-delay: 0s;
+			-webkit-animation-iteration-count: 1;
+		}
+		.hidden{
+			visibility: hidden;
+		}
+		.questions{
+			font-size: 22px;
+		}
+		.likert-labels > th{
+			font-size: 16px;
+			text-align: center;
+		}
+		div.radio{
+			height: 35px;
+			text-align: center;
+			vertical-align: middle;
+			margin-top: -20px; /* super annoying adjustment */
+		}
+		#response{
+			font-size: 20px;
+			margin-top: 30px;
+		}
+		#buttons{
+			width: 160px;
+			margin: auto;
+		}
+	</style>
+	</head>
+
+	<body>
+	<div id="everything">
+		<div id="prompts" class="panel panel-primary">
+			<div id="content-box" class="panel-heading">
+				<h3 class="panel-title"></h3>
+			</div>
+			<div id="story-content" class="panel-body">
+			</div>
+		</div>
+
+		<div id="response">
+		</div>
+
+		<div id="buttons">
+			<a id="next" href="javascript:void(0)" class="btn btn-primary">Next &#62;&#62;</a>
+		</div>
+	</div>
+	<script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+	<script src="scripts/app/step1.js" type="text/javascript" ></script>
+	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+       <script src="material/js/ripples.min.js"></script>
+       <script src="material/js/material.min.js"></script>
+	</body>
+</html>

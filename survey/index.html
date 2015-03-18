@@ -1,0 +1,147 @@
+<html>
+
+    <head>
+	<meta charset="utf-8"/>
+	<title>Strength Stories Survey</title>
+
+	<link href='https://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
+       <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+       <link href="material/css/ripples.min.css" rel="stylesheet">
+       <link href="material/css/material-wfont.min.css" rel="stylesheet">
+	<script>
+		// This survey depends on caching with localStorage, so for Safari we need to check this
+		try {
+			localStorage.test = "local storage test";
+		} catch (e) {	//there was an error so...
+			alert('You are in Private Browsing Mode.\nPlease deactivate Private Mode temporarily for your browser and then refresh/reload the page.');
+		}
+	</script>
+	<style>
+		body,html{
+			font-family: "EB Garamond", "Trebuchet MS","Helvetica","Arial","Verdana", serif;
+		}
+		#content{
+			width: 700px;
+			font-size: 22px;
+			text-align: justify;
+			margin: 20px auto;
+		}
+		#response{
+			font-size: 20px;
+			margin-top: 30px;
+		}
+		#buttons{
+			width: 235px;
+			margin: auto;
+		}
+		td{
+			width: 350px;
+		}
+		tr:nth-child(2) td{
+			padding-bottom: 20px;
+		}
+	</style>
+    </head>
+
+    <body>
+
+	<div id="content">
+
+		<div id="instruction">
+			<p> 
+			We are developing a program to help middle school students make a strong transition to high school.
+			To do that, we need your feedback (thoughts) on <b>"success stories (experiences)"</b> 
+			from students about how they handled common challenges and worries when entering high school.
+			In the following pages, you'll be shown ~20 student experiences. Please read them carefully, think about
+			how you feel about them and <b>provide your ratings as accurately as possible</b>.
+			</p>
+		</div>
+
+		<div id="response">
+			<p> Please complete the following information accurately.</p>
+			<div id="errormsg"><p></p></div>
+
+			<form id="user-input" name="user-input">
+				<table border="0">
+					<tr>
+					<td>1. Gender:</td>
+					<td>2. Name: </td>
+					</tr>
+
+					<tr>
+					<td>
+						<select name="gender" id="gender" required>
+							<option value="">Please select one</option>
+							<option value="Female">Female</option>
+							<option value="Male">Male</option>
+						</select>
+					</td>
+					<td>
+						<input type="text" name="name" id="name" size="30" value="" required>
+					</td>
+					</tr>
+				</table>
+
+				<div id="buttons">
+					<a href="javascript:void(0)" class="btn btn-primary">Let's Begin</a>
+				</div>
+			</form>
+		</div>
+	</div>
+
+        <!-- Add scripts below -->
+
+	<script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+       <script src="material/js/ripples.min.js"></script>
+       <script src="material/js/material.min.js"></script>
+       <script>
+
+	function lengthOfHash(hash){
+		return Object.keys(hash).length;
+	}
+
+	function checkAndCollectInput(ele, values){
+		// get all user's input
+		var inputs = $(ele + ' :input');
+		var inputCount = 0;
+
+		inputs.each(function() {
+			inputCount++;
+			if (this.name != "button"){
+				if (!$(this).val()){
+					alert('Please enter information for ' + $(this).attr('name') );
+					return false;
+				}
+				else{
+					values[this.name] = $(this).val();
+				}
+			}
+		});
+
+		return (lengthOfHash(values) == inputCount) ? true : false;
+	}
+
+	$(document).ready(function() {
+		$.material.init();	// load Material design templates and functions
+		
+		localStorage.clear();	// reset local storage
+
+		var values = {};
+		$('.btn-primary').on("click",function(){
+			if (checkAndCollectInput('#user-input', values)){
+				//alert( JSON.stringify(values) );
+				localStorage.setItem('user', JSON.stringify(values));
+				url = "step1.html";
+				window.location.href = url;
+			};
+		});
+
+		return false;
+	});// end document.ready
+
+       </script>
+
+    </body>
+</html>

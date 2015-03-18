@@ -1,0 +1,19 @@
+TO DO: check search_data is working over days;
+check if I run stream_filter.py from home, if it works.
+
+38KB for wornout in search_data
+
+1346118303 latest for sample_data (checked, is WORKING)
+
+Running collect_samples.py	2012-08-27 02:18:14
+====================================================
+Count =>	worn out	=>	40
+
+
+collect samples ==> rochcitest2
+manage accounts ==> rochcitest
+stream sample ==> rochcitest1
+
+stream filter ==> rochcitest3
+
+

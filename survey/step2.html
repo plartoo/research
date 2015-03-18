@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+	<head>
+	<meta charset="utf-8"/>
+	<title>Strength Stories Survey</title>
+	<link href='https://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
+       <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+       <link href="material/css/ripples.min.css" rel="stylesheet">
+       <link href="material/css/material-wfont.min.css" rel="stylesheet">
+
+	<script>
+		// This survey depends on caching with localStorage, so for Safari we need to check this
+		try {
+			localStorage.test = "local storage test";
+		} catch (e) {	//there was an error so...
+			alert('You are in Private Browsing Mode.\nPlease deactivate Private Mode temporarily for your browser and then refresh/reload the page.');
+		}
+	</script>
+	<style>
+		body,html{
+			font-family: "EB Garamond", "Trebuchet MS","Helvetica","Arial","Verdana", serif;
+		}
+		#prompts, #comments{
+			width: 700px;
+			font-size: 20px;
+			text-align: justify;
+			margin: 20px auto;
+		}
+		.stories{
+			font-size: 18px;
+		}
+		.story{
+			margin-top: 8px;
+			vertical-align: middle;
+		}
+		#textArea{
+			font-size: 18px;
+		}
+		#buttons{
+			width: 160px;
+			margin: auto;
+		}
+	</style>
+	</head>
+
+	<body>
+	<div id="everything">
+		<div id="prompts" class="panel panel-default">
+			<div class="panel-body">
+				<p><b>Below are the student experiences that you just rated. Please select the one(s) that you think is(are) the best among them. *If there is none, please choose 'None of the above'.*</b></p>
+			</div>
+		</div>
+
+		<div id="comments" class="panel panel-default">
+			<div class="panel-body">
+				<p><b>Any comment/question about any of the above student experiences you rated? Or any general comment/question about this survey?</b></p>
+				<div class="form-group">
+					<textarea class="form-control" placeholder="Write your comment here" rows="5" id="textArea"></textarea>
+			        </div>
+			</div>
+		</div>
+
+		<div id="buttons">
+			<a id="next" href="javascript:void(0)" class="btn btn-primary">Submit Survey &#62;&#62;</a>
+		</div>
+	</div>
+	<script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+       <script src="material/js/ripples.min.js"></script>
+       <script src="material/js/material.min.js"></script>
+	<script>
+
+	function generateCheckboxTable(stories){
+		var template = '';
+		var colSpan = 2;
+		template += '<table class="table table-striped" border="0">';
+		for (var i = 0; i < stories.length; i++) {
+			var story = stories[i];
+			
+			template += '<tr class="stories"><td colspan="1">';
+			template += '<div class="checkbox checkbox-primary">';
+			template += '<label><input name="stories" id="story_' + (i+1) + '" value="' + (i+1) + '" type="checkbox" ></label>';
+			template += '</div>';
+			template += '</td><td><div class="story">' + story + '</div>';
+			template += '</td></tr>';
+		}
+
+		// we'll add "None of the above" manually in the end
+		template += '<tr class="stories"><td colspan="1">';
+		template += '<div class="checkbox checkbox-primary">';
+		template += '<label><input name="stories" id="story_0" value="0" type="checkbox"></label>';
+		template += '</div>';
+		template += '</td><td><div class="story">None of the above.</div>';
+		template += '</td></tr>';
+
+
+		template += '</table>';
+		return template;
+	}
+
+	function checkAndGetLocalStorageData(key){
+		if (localStorage.getItem(key) === null){
+			alert("LocalStorage key" + key + " is EMPTY: That means something went wrong to store your rating values. Please let survey admin know");
+			return false;
+		}
+		else{ // if key exists, then return the object inside it as JSON
+			console.log(key);
+			return JSON.parse(localStorage.getItem(key));
+		}
+	}
+
+	function getStories(){
+		if (localStorage.getItem('ratings') === null){
+			alert("LocalStorage EMPTY: That means something went wrong to store your rating values. Please let survey admin know");
+			return false;
+		}
+		else{
+			return Object.keys(JSON.parse(localStorage.getItem('ratings')));
+		}
+	}
+
+	$(document).ready(function() {
+		var stories = getStories();
+		$('#prompts div').append(generateCheckboxTable(stories));
+
+		$.material.init();	// load Material design stuff AFTER appending HTML elements
+		
+		$('.btn-primary').on("click",function(e){
+			e.preventDefault();
+
+			var checkedVals = []
+			$('input:checkbox:checked').each(function() {
+				checkedVals.push($(this).val());
+			});
+
+			//localStorage.setItem('favorites', JSON.stringify(checkedVals));
+
+			// now make sure that every essential key/data that we need is present
+			var answers = checkAndGetLocalStorageData('user');
+
+			var ratings = checkAndGetLocalStorageData('ratings');
+			ratings['favorites'] = checkedVals;
+			ratings['comments'] = $('#comments textarea').val();
+
+			// must stringify or DB won't record it correctly
+			answers['ratings'] = JSON.stringify(ratings);
+
+			$.post("submitRatings.php", answers,
+				function(data,status){
+					//console.log(data);	// checks PHP return code
+					url = "thankyou.html";
+					window.location.href = url;
+			});
+		});
+
+		return false;
+	});// end document.ready			
+
+
+	</script>
+
+	</body>
+</html>
